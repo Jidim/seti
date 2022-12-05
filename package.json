@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./src",
-    "lint:fix": "eslint ./src --fix --color"
+    "lint:fix": "eslint ./src --fix --color",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +23,7 @@
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.0"
   },
-  ".husky": {
+  "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }

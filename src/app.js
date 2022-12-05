@@ -5,5 +5,5 @@ function foo(name) {
 	return lastName;
 }
 
-foo('Hi');
+foo('Hi, man');
 const x = 200;

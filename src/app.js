@@ -2,10 +2,13 @@ let a = 1;
 let m = new Array(2);
 m = [1, 2];
 function foo(name) {
-	const lastName = name;
-	return lastName;
+    const lastName = name;
+    name = lastName;
+    return lastName;
 }
+
 a++;
+
 // sofjhsrl;fhskdfjrhipesghsd;fljhlj;sdfhgj;d
 foo('Hi, man');
 const x = 200;

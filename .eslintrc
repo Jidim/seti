@@ -7,7 +7,7 @@
         "airbnb/base"
     ],
     "rules": {
-        //"semi": "off",
+        "semi": "error", //точки с запятой в конце
         "no-plusplus": "warn",
         "eol-last": "error",
         "max-len": [
@@ -19,9 +19,9 @@
         ],
         "no-tabs": "off",
         "indent": [
-            2,
-            "tab"
+            "error",
+            4
         ],
-        "no-param-reassign": "off" // переназначение параметров функций
+        "no-param-reassign": "warn" // переназначение параметров функций
     }
 }

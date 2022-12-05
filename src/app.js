@@ -6,6 +6,6 @@ function foo(name) {
 }
 
 foo('Hi, man');
-const x = 200;
+const x = 200
 
 foo(a + x);

@@ -6,5 +6,3 @@ function foo(name) {
 }
 foo('Hi');
 const x = 200;
-
-console.log(a);
